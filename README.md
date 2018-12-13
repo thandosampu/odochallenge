@@ -1,1 +1,1 @@
-# odochallenge
+Run project.sql first
