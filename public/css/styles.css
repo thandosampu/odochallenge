@@ -1,0 +1,71 @@
+/*@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body
+{
+  background-color: #fcfcfc;
+  font-family: 'Open Sans', sans-serif;
+}
+.container
+{
+  text-align: center;
+  padding: 15px;  
+}
+.topbox{
+  width:5%;
+  padding: 15px;
+  height: 50px;
+  background-color: #ddd;
+}
+.left-div
+{
+  display: inline-block;
+  max-width: 300px;
+  text-align: left;
+  padding: 20%;
+  background-color: #ddd;
+  border-radius: 3px;
+  margin: 15px;
+  vertical-align: top;
+}
+.right-div
+{
+  display: inline-block;
+  max-width: 350px;
+  text-align: center;
+  padding: 30px;
+  background-color: white;
+  border-radius: 3px;
+  margin: 15px;
+}
+@media screen and (max-width: 600px) 
+{
+  .left-div, .right-div
+    {
+       max-width: 100%;
+    }
+}
+input[type="text"], input[type="email"]{
+    background-color: #ddd;
+    width: 75%;
+    border: none;
+    margin: 5px;
+    height: 35px;
+}
+input[type="submit"]{
+    width: 75%;
+    background-color: #696969;
+    color: white;
+    border-radius: 0%;
+    padding: 1px;
+    margin: 5px;
+    height: 35px;
+}
+a, p{
+    text-align: center;
+    color:#696969;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+}
